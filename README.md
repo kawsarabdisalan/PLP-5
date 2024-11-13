@@ -52,4 +52,7 @@ int main() {
 ```
 C++ also supports multilevel inheritance. You can derive a class from another class that is a child. 
 
+C++ deals with overloading method names and resolving those calls by hvaing an overloading feature. This allows you to have two or more methods with the same names but will have different paramaters so the program knows which one is which. 
+One important note for C++ inhertinces is that although it does support multilevel inheritince, you have to be careful by looking at the properties in each class. This probkem can create errors if there are multiple of the same properties. 
+
 
