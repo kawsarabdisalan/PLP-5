@@ -1,5 +1,5 @@
 # PLP-5
-
+C++ supports objects, structs and classes. <br>
 Objects in C++ is created from a class. You specify the the class name first and then the object name. To access the class attributes, use the dot on the object. Below is an example on how to implement and call an object. 
 
 
@@ -16,6 +16,7 @@ int main() {
   //prints out 15
 }
 ```
+
 Some naming conventions in C++ usually contain camel case where the first letter is lower case and the second word is upper case. 
 ```
 //ex: myObj, myClass, myFunction
