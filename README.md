@@ -1,5 +1,7 @@
 # PLP-5
-C++ supports objects, structs and classes. <br>
+
+## Objects in C++
+In C++, the language supports objects, structs and classes as it is a OOP (Object Oriented Program) language.  <br>
 Objects in C++ is created from a class. You specify the the class name first and then the object name. To access the class attributes, use the dot on the object. Below is an example on how to implement and call an object. 
 
 
@@ -16,12 +18,15 @@ int main() {
   //prints out 15
 }
 ```
-
-Some naming conventions in C++ usually contain camel case where the first letter is lower case and the second word is upper case. 
+### Naming Conventions
+Some naming conventions in C++ usually contain camel case where the first letter is lower case and the second word is upper case. It is not required but just recommended. 
 ```
 //ex: myObj, myClass, myFunction
 ```
-C++ does not have a standard method for function that serve a similar purpose across all objects. 
+### Standard Methods
+In C++, they do have standard methods for functions that serves a purpose through all objects. You can use << or std::cout to print out an object's information. 
+
+### Inheritance 
 Inhertince in C++ works in two different ways: 
   - Derived Class (Child) -> the class that inherits from another class
   - Base Class (parent) -> the class being inherited from
